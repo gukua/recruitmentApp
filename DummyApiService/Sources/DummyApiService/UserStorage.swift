@@ -4,7 +4,9 @@ class UserStorage {
     
     private var users: [User]
     
-    init() {
+    static let shared = UserStorage()
+    
+    private init() {
         users = []
         add(user: User(login: "admin@abc.info", password: "123456"))
     }

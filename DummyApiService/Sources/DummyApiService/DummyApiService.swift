@@ -6,7 +6,7 @@ public struct DummyApiService {
     private let registerService: RegisterApiService
     
     public init() {
-        let userStorage = UserStorage()
+        let userStorage = UserStorage.shared
         loginService = LoginApiService(userStorage: userStorage)
         registerService = RegisterApiService(userStorage: userStorage)
     }
