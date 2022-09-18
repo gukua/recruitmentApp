@@ -1,0 +1,18 @@
+"login_btn" = "Zaloguj";
+"register_btn" = "Zarejestruj";
+
+"authentication_prompt_login" = "E-mail";
+"authentication_prompt_password" = "Hasło";
+"too_short_password_message" = "Hasło jest zbyt krótkie";
+"email_should_contain_at_message" = "Nieprawidłowy adres email";
+"email_should_contain_dot_message" = "Nieprawidłowy adres email";
+"login_is_too_short_message" = "Login jest zbyt krótki";
+"dialog_loading_title" = "Poczekaj...";
+"login_view_move_to_register_label" = "Nie masz konta?";
+"alert_ok" = "OK";
+"login_success" = "Udało się zalogować :)";
+
+"error_authentication_error" = "Nieprawidłowe dane logowania";
+"error_request_error" = "Niewłaściwe dane wejściowe";
+"error_internal_server_error" = "Błąd serwera";
+"error_connection_error" = "Brak połączenia z internetem";

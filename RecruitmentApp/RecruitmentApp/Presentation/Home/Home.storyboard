@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Home View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController id="Y6W-OH-hqX" customClass="HomeViewController" customModule="RecruitmentApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="T9S-m6-iwq">
+                                <rect key="frame" x="168" y="390" width="78" height="126"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pPW-FH-MXl" customClass="EmptyButton" customModule="RecruitmentApp" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="16" width="78" height="31"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Login"/>
+                                        <connections>
+                                            <action selector="loginButtonAction:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="2Ia-pg-a6v"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Thl-FW-Fws" customClass="EmptyButton" customModule="RecruitmentApp" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="79" width="78" height="31"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Register"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="Thl-FW-Fws" firstAttribute="leading" secondItem="T9S-m6-iwq" secondAttribute="leading" id="NWg-r7-yl8"/>
+                                    <constraint firstItem="Thl-FW-Fws" firstAttribute="top" secondItem="pPW-FH-MXl" secondAttribute="bottom" constant="32" id="Okg-NW-4rE"/>
+                                    <constraint firstAttribute="bottom" secondItem="Thl-FW-Fws" secondAttribute="bottom" constant="16" id="SZe-yM-sjk"/>
+                                    <constraint firstAttribute="trailing" secondItem="Thl-FW-Fws" secondAttribute="trailing" id="VCu-kh-uQW"/>
+                                    <constraint firstItem="pPW-FH-MXl" firstAttribute="leading" secondItem="T9S-m6-iwq" secondAttribute="leading" id="h8i-jO-jHC"/>
+                                    <constraint firstItem="pPW-FH-MXl" firstAttribute="top" secondItem="T9S-m6-iwq" secondAttribute="top" constant="16" id="pxc-bh-PbO"/>
+                                    <constraint firstAttribute="trailing" secondItem="pPW-FH-MXl" secondAttribute="trailing" id="rnz-nL-14S"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="T9S-m6-iwq" firstAttribute="centerY" secondItem="vDu-zF-Fre" secondAttribute="centerY" id="SpC-5u-VrS"/>
+                            <constraint firstItem="T9S-m6-iwq" firstAttribute="centerX" secondItem="vDu-zF-Fre" secondAttribute="centerX" id="ddL-oA-5lN"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="loginButton" destination="pPW-FH-MXl" id="ewj-I9-Ztd"/>
+                        <outlet property="registerButton" destination="Thl-FW-Fws" id="c8h-Be-g1J"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-10" y="80"/>
+        </scene>
+    </scenes>
+    <designables>
+        <designable name="Thl-FW-Fws">
+            <size key="intrinsicContentSize" width="77.5" height="31"/>
+        </designable>
+        <designable name="pPW-FH-MXl">
+            <size key="intrinsicContentSize" width="59.5" height="31"/>
+        </designable>
+    </designables>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
