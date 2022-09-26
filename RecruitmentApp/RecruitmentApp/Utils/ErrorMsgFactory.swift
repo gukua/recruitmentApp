@@ -13,6 +13,8 @@ struct ErrorMsgFactory {
             return "error_internal_server_error".localized
         case is ConnectionError:
             return "error_connection_error".localized
+        case is AlreadyExistsError:
+            return "error_account_exists".localized
         default:
             return error.localizedDescription;
         }

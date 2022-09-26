@@ -14,6 +14,12 @@ class HomeViewController: ViewController {
         }
     }
     
+    @IBAction func registrationButtonAction(_ sender: Any) {
+        if let navigationController = self.navigationController {
+            viewRouter.navigateToRegister(on: navigationController)
+        }
+    }
+
     override func localize() {
         super.localize()
         loginButton.setTitle("login_btn".localized, for: .normal)

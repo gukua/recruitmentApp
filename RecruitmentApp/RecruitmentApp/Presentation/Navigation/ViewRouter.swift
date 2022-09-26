@@ -25,12 +25,21 @@ class ViewRouterImpl: ViewRouter {
     }
     
     func navigateToLogin(on: UINavigationController) {
-        let loginVC = viewControllersFactory.getInitialController(StoryboardNames.login)
-        on.pushViewController(loginVC, animated: true)
+        if on.viewControllers.contains(where: { $0.isKind(of: LoginViewController.self)}) {
+            on.popViewController(animated: true)
+        } else {
+            let loginVC = viewControllersFactory.getInitialController(StoryboardNames.login)
+            on.pushViewController(loginVC, animated: true)
+        }
     }
     
     func navigateToRegister(on: UINavigationController) {
-        // not implemented yet!
+        if on.viewControllers.contains(where: { $0.isKind(of: RegistrationViewController.self)}) {
+            on.popViewController(animated: true)
+        } else {
+            let registrationVC = viewControllersFactory.getInitialController(StoryboardNames.registration)
+            on.pushViewController(registrationVC, animated: true)
+        }
     }
     
     func navigateToHome() {

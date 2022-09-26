@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0538A0DC28DE21CF003794F4 /* StoryboardNames+registration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0538A0DB28DE21CF003794F4 /* StoryboardNames+registration.swift */; };
+		0538A0DE28DE2219003794F4 /* RegistrationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0538A0DD28DE2219003794F4 /* RegistrationViewModel.swift */; };
+		0538A0E028DE23A6003794F4 /* RegistrationErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0538A0DF28DE23A6003794F4 /* RegistrationErrorHandler.swift */; };
+		0538A0E228DE23E6003794F4 /* RegistrationPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0538A0E128DE23E6003794F4 /* RegistrationPresenter.swift */; };
+		0538A0E528DE4108003794F4 /* RegistrationErrorHandlerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0538A0E428DE4108003794F4 /* RegistrationErrorHandlerTests.swift */; };
+		0538A0E728DE4120003794F4 /* RegistrationViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0538A0E628DE4120003794F4 /* RegistrationViewControllerTests.swift */; };
+		0538A0E928DE412D003794F4 /* RegistrationPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0538A0E828DE412D003794F4 /* RegistrationPresenterTests.swift */; };
+		0538A0EB28DE426E003794F4 /* RegistrationInteractorMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0538A0EA28DE426E003794F4 /* RegistrationInteractorMock.swift */; };
+		0538A0EE28DE437B003794F4 /* RegistrationPresenterMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0538A0ED28DE437B003794F4 /* RegistrationPresenterMock.swift */; };
+		0538A0F028DE438C003794F4 /* RegistrationErrorHandlerSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0538A0EF28DE438C003794F4 /* RegistrationErrorHandlerSpy.swift */; };
+		0594C76B28DDCD54005AF2C0 /* Registration.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0594C76A28DDCD54005AF2C0 /* Registration.storyboard */; };
+		0594C76D28DDEC2A005AF2C0 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0594C76C28DDEC2A005AF2C0 /* RegistrationViewController.swift */; };
 		6F061E7628D2515F004F5938 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F061E7528D2515F004F5938 /* AppDelegate.swift */; };
 		6F061E7F28D25160004F5938 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F061E7E28D25160004F5938 /* Assets.xcassets */; };
 		6F061E8228D25160004F5938 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F061E8028D25160004F5938 /* LaunchScreen.storyboard */; };
@@ -71,6 +83,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0538A0DB28DE21CF003794F4 /* StoryboardNames+registration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StoryboardNames+registration.swift"; sourceTree = "<group>"; };
+		0538A0DD28DE2219003794F4 /* RegistrationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewModel.swift; sourceTree = "<group>"; };
+		0538A0DF28DE23A6003794F4 /* RegistrationErrorHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationErrorHandler.swift; sourceTree = "<group>"; };
+		0538A0E128DE23E6003794F4 /* RegistrationPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationPresenter.swift; sourceTree = "<group>"; };
+		0538A0E428DE4108003794F4 /* RegistrationErrorHandlerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationErrorHandlerTests.swift; sourceTree = "<group>"; };
+		0538A0E628DE4120003794F4 /* RegistrationViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewControllerTests.swift; sourceTree = "<group>"; };
+		0538A0E828DE412D003794F4 /* RegistrationPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationPresenterTests.swift; sourceTree = "<group>"; };
+		0538A0EA28DE426E003794F4 /* RegistrationInteractorMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationInteractorMock.swift; sourceTree = "<group>"; };
+		0538A0ED28DE437B003794F4 /* RegistrationPresenterMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationPresenterMock.swift; sourceTree = "<group>"; };
+		0538A0EF28DE438C003794F4 /* RegistrationErrorHandlerSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationErrorHandlerSpy.swift; sourceTree = "<group>"; };
+		0594C76A28DDCD54005AF2C0 /* Registration.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Registration.storyboard; sourceTree = "<group>"; };
+		0594C76C28DDEC2A005AF2C0 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
 		6F061E7228D2515F004F5938 /* RecruitmentApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecruitmentApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F061E7528D2515F004F5938 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6F061E7E28D25160004F5938 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -146,6 +170,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0538A0E328DE40DF003794F4 /* Registration */ = {
+			isa = PBXGroup;
+			children = (
+				0538A0EC28DE436A003794F4 /* Mocks */,
+				0538A0E428DE4108003794F4 /* RegistrationErrorHandlerTests.swift */,
+				0538A0E628DE4120003794F4 /* RegistrationViewControllerTests.swift */,
+				0538A0E828DE412D003794F4 /* RegistrationPresenterTests.swift */,
+			);
+			path = Registration;
+			sourceTree = "<group>";
+		};
+		0538A0EC28DE436A003794F4 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				0538A0ED28DE437B003794F4 /* RegistrationPresenterMock.swift */,
+				0538A0EF28DE438C003794F4 /* RegistrationErrorHandlerSpy.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		0594C76928DDCCDD005AF2C0 /* Registration */ = {
+			isa = PBXGroup;
+			children = (
+				0594C76A28DDCD54005AF2C0 /* Registration.storyboard */,
+				0594C76C28DDEC2A005AF2C0 /* RegistrationViewController.swift */,
+				0538A0DB28DE21CF003794F4 /* StoryboardNames+registration.swift */,
+				0538A0DD28DE2219003794F4 /* RegistrationViewModel.swift */,
+				0538A0DF28DE23A6003794F4 /* RegistrationErrorHandler.swift */,
+				0538A0E128DE23E6003794F4 /* RegistrationPresenter.swift */,
+			);
+			path = Registration;
+			sourceTree = "<group>";
+		};
 		6F061E6928D2515F004F5938 = {
 			isa = PBXGroup;
 			children = (
@@ -197,6 +254,7 @@
 				6F061EAE28D254D5004F5938 /* Home */,
 				6F061EA928D25352004F5938 /* Navigation */,
 				6F061EA828D2534C004F5938 /* Login */,
+				0594C76928DDCCDD005AF2C0 /* Registration */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -260,6 +318,7 @@
 		6F1ABC4F28D5CE76009F97FD /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				0538A0E328DE40DF003794F4 /* Registration */,
 				6F1ABC5828D5CEEB009F97FD /* Mocks */,
 				6F1ABC5028D5CE91009F97FD /* Login */,
 			);
@@ -281,6 +340,7 @@
 			isa = PBXGroup;
 			children = (
 				6F1ABC5928D5CEF4009F97FD /* LoginInteractorMock.swift */,
+				0538A0EA28DE426E003794F4 /* RegistrationInteractorMock.swift */,
 				6F1ABC5B28D5D30D009F97FD /* SampleError.swift */,
 				6F1ABC5D28D5D456009F97FD /* AlertPresenterSpy.swift */,
 				6F1ABC6428D74612009F97FD /* ViewRouterSpy.swift */,
@@ -453,6 +513,7 @@
 				6F061EC728D25E76004F5938 /* Localizable.strings in Resources */,
 				6F061E8228D25160004F5938 /* LaunchScreen.storyboard in Resources */,
 				6F061E7F28D25160004F5938 /* Assets.xcassets in Resources */,
+				0594C76B28DDCD54005AF2C0 /* Registration.storyboard in Resources */,
 				6F061EB428D255DF004F5938 /* Login.storyboard in Resources */,
 				6FD9207328D2630700BD9EC1 /* ValidatedTextField.xib in Resources */,
 				6F061EB628D255FF004F5938 /* Home.storyboard in Resources */,
@@ -474,8 +535,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				6FD9209028D26A9300BD9EC1 /* CustomButton.swift in Sources */,
+				0538A0E228DE23E6003794F4 /* RegistrationPresenter.swift in Sources */,
 				6FD9207628D2630700BD9EC1 /* String+Regex.swift in Sources */,
 				6FD9207A28D2633D00BD9EC1 /* BaseUIView.swift in Sources */,
+				0538A0DE28DE2219003794F4 /* RegistrationViewModel.swift in Sources */,
 				6FD9207F28D2648B00BD9EC1 /* AppTheme.swift in Sources */,
 				6F061EAD28D25411004F5938 /* LoginViewController.swift in Sources */,
 				6FD9208D28D2695000BD9EC1 /* LoginPresenter.swift in Sources */,
@@ -488,6 +551,7 @@
 				6F061EAB28D25362004F5938 /* ViewRouter.swift in Sources */,
 				6F061EBF28D25CA8004F5938 /* ViewController.swift in Sources */,
 				6F061EC128D25CDA004F5938 /* Presenter.swift in Sources */,
+				0538A0E028DE23A6003794F4 /* RegistrationErrorHandler.swift in Sources */,
 				6FD9208B28D2691E00BD9EC1 /* LoginErrorHandler.swift in Sources */,
 				6F061EBA28D25671004F5938 /* StoryboardNames+login.swift in Sources */,
 				6F1ABC4E28D39D8B009F97FD /* ErrorMsgFactory.swift in Sources */,
@@ -503,11 +567,13 @@
 				6FD9209428D26AFD00BD9EC1 /* FullButton.swift in Sources */,
 				6F1C30F728D26FE800E85FF5 /* UIView+addFilled.swift in Sources */,
 				6F061EB828D25660004F5938 /* StoryboardNames.swift in Sources */,
+				0594C76D28DDEC2A005AF2C0 /* RegistrationViewController.swift in Sources */,
 				6F1C30F228D26EE400E85FF5 /* UIView+addCentered.swift in Sources */,
 				6F061E7628D2515F004F5938 /* AppDelegate.swift in Sources */,
 				6F061EBC28D25678004F5938 /* StoryboardNames+home.swift in Sources */,
 				6F061EB028D2552F004F5938 /* HomeViewController.swift in Sources */,
 				6FD9208528D2680F00BD9EC1 /* LoginViewModel.swift in Sources */,
+				0538A0DC28DE21CF003794F4 /* StoryboardNames+registration.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -515,13 +581,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0538A0E528DE4108003794F4 /* RegistrationErrorHandlerTests.swift in Sources */,
 				6F1ABC5E28D5D456009F97FD /* AlertPresenterSpy.swift in Sources */,
+				0538A0E928DE412D003794F4 /* RegistrationPresenterTests.swift in Sources */,
 				6F1ABC5C28D5D30D009F97FD /* SampleError.swift in Sources */,
+				0538A0EB28DE426E003794F4 /* RegistrationInteractorMock.swift in Sources */,
+				0538A0EE28DE437B003794F4 /* RegistrationPresenterMock.swift in Sources */,
+				0538A0E728DE4120003794F4 /* RegistrationViewControllerTests.swift in Sources */,
 				6F1ABC6228D5D7D9009F97FD /* LoginErrorHandlerSpy.swift in Sources */,
 				6F1ABC5728D5CEC5009F97FD /* LoginPresenterTests.swift in Sources */,
 				6F1ABC5528D5CEB5009F97FD /* LoginViewControllerTests.swift in Sources */,
 				6F1ABC5328D5CEAD009F97FD /* LoginErrorHandlerTests.swift in Sources */,
 				6F1ABC6028D5D727009F97FD /* LoginPresenterMock.swift in Sources */,
+				0538A0F028DE438C003794F4 /* RegistrationErrorHandlerSpy.swift in Sources */,
 				6F1ABC5A28D5CEF4009F97FD /* LoginInteractorMock.swift in Sources */,
 				6F1ABC6528D74612009F97FD /* ViewRouterSpy.swift in Sources */,
 			);

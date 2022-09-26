@@ -36,7 +36,7 @@ private extension HttpResponseCode {
         case .ok:
             return nil
         case .alreadyExist:
-            return nil
+            return AlreadyExistsError()
         }
     }
 }

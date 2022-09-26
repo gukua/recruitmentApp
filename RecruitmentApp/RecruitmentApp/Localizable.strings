@@ -11,8 +11,11 @@
 "login_view_move_to_register_label" = "Nie masz konta?";
 "alert_ok" = "OK";
 "login_success" = "Udało się zalogować :)";
+"registration_success" = "Konto zostało poprawie zarejestrowane";
+"registration_view_move_to_login_label" = "Masz już konto? Zaloguj się.";
 
 "error_authentication_error" = "Nieprawidłowe dane logowania";
 "error_request_error" = "Niewłaściwe dane wejściowe";
 "error_internal_server_error" = "Błąd serwera";
 "error_connection_error" = "Brak połączenia z internetem";
+"error_account_exists" = "Konto o podanym mailu już istnieje";

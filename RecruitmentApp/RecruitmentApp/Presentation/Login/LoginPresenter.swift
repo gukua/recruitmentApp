@@ -8,7 +8,7 @@ protocol LoginPresenter: Presenter {
 }
 
 class LoginPresenterImpl: LoginPresenter {
-    
+
     let viewModel: LoginViewModel = LoginViewModel()
     private let loginInteractor: LoginInteractor
     private var loginCancellable: AnyCancellable?
@@ -24,13 +24,16 @@ class LoginPresenterImpl: LoginPresenter {
         }
         viewModel.loadingIndicatorVisible.value = true
         loginCancellable?.cancel()
-        loginCancellable = loginInteractor.login(username: login,
-                              password: password).onCompletition { [unowned self] error in
-            viewModel.loadingIndicatorVisible.value = false
-            if error != nil {
-                viewModel.loginError.value = error
-            } else {
-                viewModel.loginSuccess.value = true
+        DispatchQueue.global(qos: .userInitiated).async {
+            self.loginCancellable = self.loginInteractor.login(username: login,
+                                  password: password)
+            .onCompletition { [unowned self] error in
+                viewModel.loadingIndicatorVisible.value = false
+                if error != nil {
+                    viewModel.loginError.value = error
+                } else {
+                    viewModel.loginSuccess.value = true
+                }
             }
         }
     }
